@@ -12,7 +12,7 @@ pipeline {
 
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\Sarvothaman R J\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
             }
         }
 
